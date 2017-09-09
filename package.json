@@ -1,13 +1,13 @@
 {
-  "name": "tsc-watch",
+  "name": "ts-watch",
   "version": "1.0.8",
-  "description": "The TypeScirpt compiler with onSuccess command",
+  "description": "The TypeScript compiler customized for fast incremental builds",
   "main": "tsc-watch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "tsc-watch": "./tsc-watch.js"
+    "ts-watch": "./tsc-watch.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "keywords": [
     "TypeScript"
   ],
-  "author": "Gil Amran",
+  "author": "Ken Chau",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gilamran/tsc-watch/issues"
